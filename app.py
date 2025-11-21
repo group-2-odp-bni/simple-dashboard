@@ -183,7 +183,7 @@ def page_2_flow_topup_transfer():
             
             st.markdown("---")
             
-            st.markdown("#### B. Fitur Transfer")
+            st.markdown("#### B. Fitur Transfer (Target Nomor testing : 081317702001)")
             q_trf = st.radio("Kemudahan alur Transfer:", 
                            ['Sangat Mudah', 'Mudah', 'Biasa', 'Sulit', 'Sangat Sulit'],
                            index=None, key="q_trf")
