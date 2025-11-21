@@ -333,9 +333,9 @@ def page_5_final():
                 
                 st.balloons()
                 st.write("---")
-                st.json(data_final, expanded=False)
+                # st.json(data_final, expanded=False)
                 
-                st.form_submit_button("Isi Survei Baru uatng", on_click=reset_survey)
+                st.form_submit_button("Isi Survei Baru ulang", on_click=reset_survey)
 
     st.button("⬅️ Kembali", on_click=prev_page)
 
