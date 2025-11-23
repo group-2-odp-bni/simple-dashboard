@@ -4,3 +4,5 @@ python-dotenv==1.0.1
 plotly 
 wordcloud
 matplotlib
+pg8000
+sqlalchemy

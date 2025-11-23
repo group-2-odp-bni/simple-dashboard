@@ -5,7 +5,7 @@ from email.mime.text import MIMEText
 from email.mime.multipart import MIMEMultipart
 from dotenv import load_dotenv 
 import os 
-from local_db_manager import save_survey_response
+from supabase import save_survey_response
 
 st.set_page_config(
     page_title="Survei Aplikasi Orange Wallet", 
