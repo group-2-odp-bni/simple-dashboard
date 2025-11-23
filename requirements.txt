@@ -6,3 +6,4 @@ wordcloud
 matplotlib
 pg8000
 sqlalchemy
+supabase

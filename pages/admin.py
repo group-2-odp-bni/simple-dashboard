@@ -7,7 +7,7 @@ import matplotlib.pyplot as plt
 import sys
 import os
 sys.path.append("..") 
-from supabase import fetch_all_responses
+from supabase_manager import fetch_all_responses
 st.set_page_config(page_title="Admin Dashboard", layout="wide")
 
 st.title("📊 Dashboard Analitik Orange Wallet")
